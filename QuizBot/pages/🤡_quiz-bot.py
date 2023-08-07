@@ -15,7 +15,7 @@ openai.api_key = config['SECRETS']['openai_api_key']
 
 # Define the language model and creates the ChatOpenAI object to chain together LM and the Open AI APIs
 MODEL = "gpt-3.5-turbo"
-chat_llm = ChatOpenAI(model=MODEL, temperature=1, max_tokens=500, openai_api_key=openai.api_key)
+chat_llm = ChatOpenAI(model=MODEL, temperature=0.2, max_tokens=500, openai_api_key=openai.api_key)
 
 #Python function to generate quesions, answer choices and correct answer given a topic.Returns a python dictionary
 def generate_question_answer(subject):
