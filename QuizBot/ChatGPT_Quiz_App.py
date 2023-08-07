@@ -7,6 +7,6 @@ import streamlit as st
 
 st.header("Building AI Applications with ChatGPT - OpenAI Demo App")
 st.subheader("Sumudu Tennakoon")
-st.write("https://github.com/SumuduTennakoon/BuildingAIApplicationsWithChatGPT")
+st.write("https://github.com/chamalj1980/ChatGPTQuizBot/tree/main/QuizBotT")
 
 
